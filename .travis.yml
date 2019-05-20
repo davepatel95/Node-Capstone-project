@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: GTsAxt6VpNIf89+m3j3qIobeVfpIqFjWJXq3W/aBMQSG365ybsOsmzZ9nTrksQW2XGOxROTpeKhxJsn+7Iu0ZX+x9YuEDABCO5mxaaG9Cc4/vreNncgosfSmggP6dL7R3JsPovVs6y4FZNwcVfxjZEIvFvGboWAbyKQtKlHzvkeUoJEZmWgTIDkK7kpsmtX+sFcLO9+uwv3qSh/jEZBVTF0crC4i5XWuo3+FA5duU1oJ/U18SI7yofgHCeT4xyFTLnI7GwQTh93LUA/NnAcRjGOMnR2pKQsVeZv6uirQmaswAudUsX0gLiZ5vFuWxiVSvofdlE9cuToWjizSwqbjaVAY9pggNue6JogOsQiiAvplZBXsrMpqigUCfp+hIwxQ7CQntgrmpz/JE6IxNJr0yjWI+sDQfNAvl12FdDfTBrHg+U+tITkr1uQHXcqTvca2wzaFivK8J8i+EEChRlkOXLci8qV6oLPiptvUPaxAqS0n+ClZfdqA0zxmBDf82gQeXlBVQJt9FeFvqghRO2Ibiuy7nsPOg2rWTYBo+youOknGr2fk6CBuFObWK6Ng3bdeKIgu43F8vEDcrq9q5egI4ITX3/gGnvxDukz1rDWui35tUNRnVnfoS52eekHvXUEwpP7emNP+DfQm36iyyRLiFAT6xwSSXu/mG6XC6Qys+wo=
+  app: quiet-shore-62367
+  on:
+    repo: davepatel95/Node-Capstone-project
